@@ -6,9 +6,14 @@ const items = ref([{ title: "标题1", content: 'footer1' },
 </script>
 
 <template>
-    <div style="width: 100%; height: 80px; text-align: center;" :style="`color: var(--el-color-primary)`"><h1>Yogi's
-            Blogs</h1>
+    <div style="width: 100%; height: 180px; text-align: center;" :style="`color: var(--el-color-primary)`"><h1>
+        友迪 & 小白
+    </h1>
             <br/>
+        <div style="text-align: center;">
+            <p><a target="_blank" href="https://github.com/ByYogi">友迪 github</a> &nbsp; &nbsp; <a target="_blank" href="https://github.com/anku-ak123">小白 github</a></p>
+            
+        </div>
         </div>
     <div style="display: flex; justify-content: center;  flex-wrap: wrap; gap: 20px">
         <el-card v-for="item in items" shadow="hover" style="width: 680px;">
